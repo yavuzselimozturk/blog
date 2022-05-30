@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkgreen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Teko', sans-serif;
+}
+
+#header{
+    background-color: black;
+    color: whitesmoke;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+#head{
+    float: left;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#container{
+    width: 80%;
+    margin:auto;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 12px rgba(20, 23, 28, .15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    color: whitesmoke;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#headerResim{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.8;
+}
+
+#centered{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 12px rgba(20, 23, 28, .15);
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.menu{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+.card {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.badge{
+  float: left;
+  padding-left: 20px;
+}
+
+.card-header{
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #b4b4b4;
+  padding-left: 20px;
+  display: block;
+}
+.list-group li{
+    list-style-type: none;
+}
+.list-group li a{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+.list-group li a:hover{
+    color: whitesmoke;
+    background-color: #adadad;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.post-preview{
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.post-preview a{
+
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+h3{
+    color: grey;
+}
+
+.post-meta{
+    color: dimgray;
+}
+.btnOlder:link{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: gray;
+    margin:15px;
+    border-radius: 10px;
+
+}
+
+.btnOlder:hover{
+    opacity: 0.8;
+}
+
+.btnOlder{
+    float: right;
+    height: auto;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    line-height: 50px;
+    text-align: center;
+
+}
+.badge{
+    width: 10%;
+    height: 50px;
+    background-color: rgb(0, 75, 0);
+    padding-right: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+    height: auto;
+    color: whitesmoke;
+}
+.baslik{
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 12px rgba(20, 23, 28, .15);
+}
+
+h4{
+  text-align: center;
+  background-color: red;
+  color: whitesmoke;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 12px rgba(20, 23, 28, .15);
+}
+
+#paylasimResim{
+  width: 350px;
+  height: 300px;
+  float: left;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#anasayfaResim{
+  width: auto;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#title{
+  float: right;
+  margin-right: 100px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.iletisimBaslik{
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  width: 125%;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 12px rgba(20, 23, 28, .15);
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.success{
+  text-align: center;
+  background-color: green;
+  color: whitesmoke;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 12px rgba(20, 23, 28, .15);
+}
